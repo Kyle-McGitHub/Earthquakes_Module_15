@@ -8,3 +8,58 @@ body,
 html {
   height: 100%;
 }
+
+.info.legend {
+  background-color: white;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+.legend-color-1 {
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  background-color: #FEB24C; /* Color for depths 0-9 km */
+  margin-right: 8px;
+}
+
+.legend-color-2 {
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  background-color: #FD8D3C; /* Color for depths 10-29 km */
+  margin-right: 8px;
+}
+
+.legend-color-3 {
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  background-color: #FC4E2A; /* Color for depths 30-49 km */
+  margin-right: 8px;
+}
+
+.legend-color-4 {
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  background-color: #E31A1C; /* Color for depths 50-69 km */
+  margin-right: 8px;
+}
+
+.legend-color-5 {
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  background-color: #BD0026; /* Color for depths 70-89 km */
+  margin-right: 8px;
+}
+
+.legend-color-6 {
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  background-color: #800026; /* Color for depths 90+ km */
+  margin-right: 8px;
+}
